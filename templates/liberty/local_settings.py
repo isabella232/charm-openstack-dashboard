@@ -17,7 +17,7 @@ TEMPLATE_DEBUG = DEBUG
 
 # WEBROOT is the location relative to Webserver root
 # should end with a slash.
-WEBROOT = '/'
+WEBROOT = '{{ webroot }}'
 #LOGIN_URL = WEBROOT + 'auth/login/'
 #LOGOUT_URL = WEBROOT + 'auth/logout/'
 #
